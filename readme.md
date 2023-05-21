@@ -14,13 +14,13 @@ A SpringBoot Java API that manages users and persists them in a PostgresDB.
     <li>PostgreSQL</li>
     <li>Docker</li>
 </ul>
-<p>Step 1: run below command to start postgres docker container</p>
+<p>Step 1: Run below command to start postgres docker container</p>
 
 ```
 docker run --name postgres_docker -e POSTGRES_PASSWORD=1234 -e POSTGRES_USER=root -e POSTGRES_DB=assignment -p 5432:5432 -d postgres
 ```
 
-<p>Step 2: run below to start spring boot backend</p>
+<p>Step 2: Run below command to start spring boot backend</p>
 
 ```
 mvn spring-boot:run
